@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .navSection{
+     height: 50px;
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(125, 244, 244);
+     align-items: center;
+     color: black;
+     padding: 0 20px 0 20px;
+ }
+ .sideBarSection{
+    width: 100%;
+    max-width: 15%;
+    height: 90vh;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: darkkhaki;
+    align-items: center;
+}
+.sideBarSection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: medium;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-left: -35px;
+
+
+}
+.loginSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -400px;
+    margin-left: 70px;
+    
+}
+.registerSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: -400px;
+    margin-left: 70px;
+
+}
+
+.collectionSection{
+    display: flex;
+}
+
+.authForm{
+    width: 100%;
+    max-width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.firmSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border: 1px black;
+    height: 70vh;
+    padding-top: 80px;
+    margin-bottom: 5px;
+    margin-top: -420px;
+    margin-left: 70px;
+    
+
+}
+.tableForm{
+    width: 100%;
+    max-width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -100px;
+    border-radius: 10px;
+
+}
+.tableForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+}
+.tableForm label{
+    width: 100%;
+    max-width: 85%;
+}
+.checkboxContainer{
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkboxContainer label{
+    font-size: small;
+    width: 200%;
+
+}
+.inputsContainer{
+    width: 100%;
+    display: flex;
+}
+.checkinp{
+    width: 100%;
+    max-width: 85%;
+    display: flex;
+}
+.checkinp label{
+    width: 20%;
+}
+.product-table{
+    border: 2px solid gray;
+    width: 60vw;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+.product-table th,
+.product-table td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+

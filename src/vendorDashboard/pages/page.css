@@ -1,0 +1,7 @@
+.landing-page{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-right: 250px;
+}
